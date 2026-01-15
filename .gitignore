@@ -1,0 +1,83 @@
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build output
+# =========================
+Debug/
+Release/
+x64/
+bin/
+obj/
+build/
+out/
+
+# =========================
+# CUDA / NVCC
+# =========================
+*.cubin
+*.fatbin
+*.ptx
+*.gpu
+
+# =========================
+# CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeScripts/
+Makefile
+
+# if you create an out-of-source build directory
+build*/
+CMakeBuild*/
+
+# =========================
+# Windows junk
+# =========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# IDE backups
+# =========================
+*.bak
+*.tmp
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Python (if ever used)
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# VS Code (if used)
+# =========================
+.vscode/
+
+# =========================
+# Project specific
+# =========================
+# Ignore generated dictionaries / caches
+data/*.cache
+data/generated_*
+
+# Don't ignore your actual dictionary files:
+!data/*.txt
+
+# Ignore Visual Studio CMake integration
+.cache/
