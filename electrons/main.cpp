@@ -25,7 +25,7 @@ int main() {
     const int fieldW = 480;
     const int fieldH = 270;
 
-    const int particleCount = 10;
+    const int particleCount = 10000;
 
     sf::RenderWindow window(sf::VideoMode(windowW, windowH), "Electrostatic Field (CUDA + SFML)");
     window.setVerticalSyncEnabled(false);
